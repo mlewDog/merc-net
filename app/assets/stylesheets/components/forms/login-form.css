@@ -1,0 +1,24 @@
+.login-form-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+form {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    .form-input-block {
+        display: flex;
+        gap: .5rem;
+        flex-direction: column;
+        label {
+            font-size: var(--text-lg);
+        }
+    }
+    button {
+
+    }
+}

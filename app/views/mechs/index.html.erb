@@ -1,0 +1,30 @@
+<h1>This is the mech list</h1>
+<section class="mech-list">
+  <div class="table-container">
+    <table>
+      <caption >Battle Tech Mechs</caption>
+      <tr role="row" >
+        <th>Model</th>
+        <th>BV</th>
+        <th>Movement</th>
+        <th>Dmg Short</th>
+        <th>Dmg Medium</th>
+        <th>Dmg Long</th>
+        <th>Armor</th>
+        <th>Structure</th>
+      </tr>
+      <% @mechs.each do |mech| %>
+        <tr role="row" >
+          <td role="cell" data-cell="model"  ><%= mech.model %></td>
+          <td role="cell" data-cell="bv"><%= mech.bv %></td>
+          <td role="cell" data-cell="movement"><%= mech.movement %></td>
+          <td role="cell" data-cell="dmg-short"><%= mech.dmg_short %></td>
+          <td role="cell" data-cell="dmg-medium"><%= mech.dmg_medium %></td>
+          <td role="cell" data-cell="dmg-long"><%= mech.dmg_long %></td>
+          <td role="cell" data-cell="armor"><%= mech.armor %></td>
+          <td role="cell" data-cell="structure"><%= mech.structure %></td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
+</section>

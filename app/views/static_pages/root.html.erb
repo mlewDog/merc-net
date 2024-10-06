@@ -1,0 +1,18 @@
+<section class="landing-page-container">
+  <div class="section-background-color"></div>
+  <div class="login-form-container">
+    <%= form_with do |form| %>
+      <div class="form-input-block">
+        <%= form.label :email  %>
+        <%= form.text_field :email %>
+      </div>
+      <div class="form-input-block">
+        <%= form.label :password  %>
+        <%= form.text_field :password %>
+      </div>
+      <div class="form-input-block">
+        <%= form.submit "Login" %>
+      </div>
+    <% end %>
+  </div>
+</section>

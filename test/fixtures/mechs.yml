@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  model: MyText
+  bv_alpha: 1
+  movement_alpha: 1
+  bv_classic: 1
+  dmg_short: 1
+  dmg_medium: 1
+  dmg_long: 1
+  armor_alpha: 1
+  structure: 1
+
+two:
+  model: MyText
+  bv_alpha: 1
+  movement_alpha: 1
+  bv_classic: 1
+  dmg_short: 1
+  dmg_medium: 1
+  dmg_long: 1
+  armor_alpha: 1
+  structure: 1
